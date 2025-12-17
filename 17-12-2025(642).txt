@@ -1,0 +1,62 @@
+a=int(input("Enter the birth year: "))
+age=2025-a
+print("your age is ",age)
+
+output:
+Enter the birth year: 2006
+your age is  19
+
+
+
+my_dict = {
+    "name": "Hari",
+    "age": 35,
+    "city": "Chennai"
+}
+
+for key in my_dict.keys():
+    print(key)
+
+output:
+
+name
+age
+city
+
+
+
+
+list = ["Bob", 29, 9.7, True]
+print(list)
+
+output:
+['Bob', 29, 9.7, True]
+
+
+
+list = ["Bob", 35, 9.7, True]
+for i in list:
+    print(i)
+
+output:
+
+Bob
+35
+9.7
+True
+
+    
+
+
+pip install requests
+
+import requests
+
+data=requests.get("https://github.com/")
+print(data.text)
+output:
+
+
+data=requests.get("https://api.github.com")
+print(data.text)
+output:
